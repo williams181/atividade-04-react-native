@@ -5,8 +5,9 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
 import Login from './screens/Login';
 import Register from './screens/Cadastro';
-import Contact from './screens/Contato';
-import List from './screens/Lista';
+import Contact from './screens/ContatoRegister';
+import List from './screens/ContatoListar';
+import ContactUpdate from './screens/ContatoUpdate';
 
 const Stack = createNativeStackNavigator();
 
@@ -18,6 +19,7 @@ function App() {
                 <Stack.Screen name="List" component={List} />
                 <Stack.Screen name="Register" component={Register} />
                 <Stack.Screen name="Contact" component={Contact} />
+                <Stack.Screen name="ContactUpdate" component={ContactUpdate} />
             </Stack.Navigator>
         </NavigationContainer>
     );

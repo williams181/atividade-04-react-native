@@ -7,15 +7,6 @@ export default styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center',
     },
-    contactList: {
-        width: '90%',
-    },
-    titleList: {
-        flexDirection: 'row',
-        bottom: '5%',
-        justifyContent: 'center'
-
-    },
     avatar: {
         top: '20%',
     },
@@ -27,12 +18,9 @@ export default styles = StyleSheet.create({
     inputStyle: {
         borderWidth: 1,
     },
-    avatarPosition: {
-
-    },
     texto: {
         fontFamily: 'Helvetica',
-        fontSize: 24,
+        fontSize: 20,
         left: 10,
         marginEnd: 5,
     },
@@ -59,7 +47,7 @@ export default styles = StyleSheet.create({
         fontFamily: 'Helvetica',
         fontSize: 28,
         bottom: '50%',
-        left: '24%',
+        left: '35%',
         color: '#fff'
     },
 })
